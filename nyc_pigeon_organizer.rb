@@ -4,7 +4,8 @@ def nyc_pigeon_organizer(data)
       value2.times do |count|
         if !memo[value2[count]]
           memo[value2[count]] = {}
-          memo[value2[count]][] = 
+          memo[value2[count]][:quality] = []
+          
         end 
       end 
     end 
