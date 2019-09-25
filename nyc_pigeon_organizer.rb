@@ -5,10 +5,10 @@ def nyc_pigeon_organizer(data)
         if !memo[value2[count]]
           memo[value2[count]] = {}
           memo[value2[count]][quality] = []
-          memo[value2[count]][quality].push(detail.to_s)
         elsif !memo[value2[count]][quality]
           memo[value2[count]][quality].push(detail.to_s)
         end 
+        memo[value2[count]][quality].push(detail.to_s)
       end 
     end 
     memo
